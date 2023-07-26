@@ -1,0 +1,104 @@
+body {
+    display: flex;
+    background-color: rgb(106, 107, 104);
+}
+
+#side_bar {
+    background-color: rgb(9, 9, 9);
+    width: 300px;
+    height: 100vh;
+    /* padding: 10px; */
+}
+
+#main_container {
+    background-color: rgb(74, 75, 71);
+    width: 100vw;
+    height: 100vh;
+    /* padding: 10px; */
+
+}
+
+#Heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+.Loading{
+    position: relative;
+    top: 100px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+#contentDiv {
+    color: aliceblue;
+}
+
+#inputcontainer {
+    position: fixed;
+    top: 80vh;
+    left: 25vw;
+    margin: 10px;
+    padding: 10px;
+    /* background-color: rgb(55, 255, 0); */
+    width: 55vw;
+}
+
+#inputbox {
+    background-color: rgb(93, 86, 86);
+    color: aliceblue;
+    width: 55vw;
+    height: 40px;
+    border: 2px;
+    border-radius: 10px;
+}
+
+#button {
+    position: fixed;
+    top: 84vh;
+    left: 85vw;
+}
+
+#summary {
+    font-family: 'Times New Roman';
+    font-size: 14px;
+    color: white;
+}
+
+
+#side_bar_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    border:solid;
+    border-color: aliceblue;
+    border-width: 0.2px;
+}
+
+#side_bar_p {
+    color: aliceblue;
+}
+
+#side_bar_div:hover{
+background-color: rgb(64, 61, 61);
+}
+@media screen and (max-width: 812px) {
+    #inputcontainer {
+        left: 35vw;
+    }
+}
+
+@media (max-height: 377px) {
+    #button {
+        top: 88vh;
+    }
+}
+
+@media (min-width: 812px) {
+    #button {
+        left: 75vw;
+    }
+}
